@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andra Dharani Portfolio</title>
+
+  <style>
+    /* Professional Profile Photo */
+
+.profile-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+/* Elegant Border */
+.profile-border{
+    padding:6px;
+
+    border-radius:50%;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.2);
+
+    transition:0.4s ease;
+}
+
+/* Hover Effect */
+.profile-border:hover{
+    transform:translateY(-5px);
+    box-shadow:
+        0 12px 30px rgba(0,0,0,0.3);
+}
+
+/* Profile Image */
+.profile-photo{
+    width:180px;
+    height:180px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid white;
+}
+    
+    .profile-pic{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    margin-bottom:15px;
+}
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+    background:#eef2ff;
+
+    color:#333;
+
+    line-height:1.8;
+
+    font-family:'Poppins',sans-serif;
+
+    }
+
+    header{
+      background:#2563eb;
+      color:white;
+      text-align:center;
+      padding:40px 20px;
+    }
+
+    header h1{
+      font-size:40px;
+    }
+
+    header p{
+      margin-top:10px;
+      font-size:18px;
+    }
+
+    nav{
+      margin-top:15px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    .container{
+      width:85%;
+      margin:auto;
+      padding:20px;
+    }
+/* Modern Separate Sections */
+
+.container{
+    width:85%;
+    margin:auto;
+    padding:40px 0;
+}
+
+section{
+    background:white;
+
+    margin:50px 0;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.08);
+
+    transition:0.4s ease;
+}
+
+/* Hover Animation */
+section:hover{
+    transform:translateY(-8px);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* Section Heading */
+section h2{
+    color:#2563eb;
+
+    font-size:38px;
+
+    margin-bottom:30px;
+
+    position:relative;
+}
+
+/* Blue Line Under Heading */
+section h2::after{
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:-10px;
+
+    width:80px;
+    height:4px;
+
+    background:#2563eb;
+
+    border-radius:10px;
+
+    
+    }
+
+    h2{
+      color:#2563eb;
+      margin-bottom:15px;
+    }
+
+    ul{
+      list-style:none;
+    }
+
+    ul li{
+      padding:8px 0;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:#eef4ff;
+      padding:20px;
+      border-radius:10px;
+    }
+
+    .contact p{
+      margin:10px 0;
+    }
+
+    footer{
+      background:#111827;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:20px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:15px;
+      padding:10px 20px;
+      background:#2563eb;
+      color:white;
+      text-decoration:none;
+      border-radius:5px;
+    }
+
+    .btn:hover{
+      background:#1d4ed8;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    
+    <div class="profile-container">
+    <div class="profile-border">
+        <img src="dharani photo.png" alt="Andra Dharani" class="profile-photo">
+    </div>
+</div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <p>
+        I am a passionate Computer Science Engineering student interested in
+        web development, databases, and problem solving. I enjoy building
+        real-world projects and learning modern technologies.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <ul>
+        <li>
+          <strong>B.Tech – CSE</strong> | NSRIT <br>
+          2023 – Present | CGPA: 8.63
+        </li>
+
+        <li>
+          <strong>Intermediate</strong> | Narayana Junior College <br>
+          2022 | 89.95%
+        </li>
+
+        <li>
+          <strong>SSC</strong> | S.V.V.P School <br>
+          2020 | 98.54%
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+
+      <ul>
+        <li>✔ C</li>
+        <li>✔ Java</li>
+        <li>✔ Python</li>
+        <li>✔ Data Structures</li>
+        <li>✔ HTML</li>
+        <li>✔ CSS</li>
+        <li>✔ JavaScript</li>
+        <li>✔ SQL</li>
+        <li>✔ Flask</li>
+        <li>✔ PostgreSQL</li>
+        <li>✔ MongoDB</li>
+        <li>✔ Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="projects">
+
+        <div class="card">
+          <h3>E-Commerce Catalog</h3>
+
+          <p>
+            Designed a NoSQL database using MongoDB and implemented CRUD operations.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Live E-Commerce Project</h3>
+
+          <p>
+            Developed using HTML, CSS, JavaScript, and MongoDB.
+          </p>
+
+          <a href="https://ecommerce-catalog-1-1shx.onrender.com" class="btn">
+            View Project
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements & Certifications</h2>
+
+      <ul>
+        <li>🏆 Participated in Hackathons</li>
+        <li>🏆 Served as Hackathon Coordinator</li>
+        <li>📜 MERN Stack Workshop</li>
+        <li>📜 Cloud Computing Internship</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+
+      <p>📧 Dharaniandra1@gmail.com</p>
+      <p>📞 +91 9182196541</p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/dharaniandra1" target="_blank">
+          github.com/dharaniandra1
+        </a>
+      </p>
+
+      <p>
+        LinkedIn:
+        <a href="https://linkedin.com/in/dharani-andra-b995933a4" target="_blank">
+          linkedin.com/in/dharani-andra-b995933a4
+        </a>
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Andra Dharani | Student Portfolio</p>
+  </footer>
+
+</body>
+</html>
